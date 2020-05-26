@@ -3,7 +3,7 @@
 # output every command that modifies files on the build system.
 export DH_VERBOSE = 1
 
-export PYBUILD_NAME=openplotter-myapp
+export PYBUILD_NAME=openplotter-rs485
 
 %:
 	dh $@  --with python3 --buildsystem=pybuild
@@ -15,4 +15,3 @@ export PYBUILD_NAME=openplotter-myapp
 #	dh_auto_build
 #	PYTHONPATH=. http_proxy='127.0.0.1:9' sphinx-build -N -bhtml        docs/ build/html # HTML generator
 #	PYTHONPATH=. http_proxy='127.0.0.1:9' sphinx-build -N -bman        docs/ build/man # Manpage generator
-

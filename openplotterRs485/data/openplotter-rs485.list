@@ -1,0 +1,7 @@
+# Source: Cloudsmith (support@cloudsmith.io)
+# Repository: Milan Broum / Quaranta openplotter
+# Description: openplotter repository for Quaranta customized modules.
+
+deb https://dl.cloudsmith.io/public/milan-broum/openplotter-quaranta/deb/debian buster main
+
+# deb-src https://dl.cloudsmith.io/public/milan-broum/openplotter-quaranta/deb/debian buster main

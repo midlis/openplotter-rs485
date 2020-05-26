@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=RS485 module
+Exec=openplotter-rs485
+Icon=openplotter-rs485
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=OpenPlotter
